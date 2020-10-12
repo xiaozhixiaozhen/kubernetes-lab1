@@ -38,7 +38,9 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s http
 make executable
 
 ```
-sudo mv ./kubectl /usr/local/bin/kubectl
+chmod +x /usr/local/bin/kubectl
+
+#sudo mv ./kubectl /usr/local/bin/kubectl
 ```
 
 verify
